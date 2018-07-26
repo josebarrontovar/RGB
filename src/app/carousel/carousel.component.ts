@@ -8,7 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CarouselComponent implements OnInit {
   @Input() color:string;
 
-  constructor() { }
+  constructor() {
+    setInterval(function(){ alert("Cambio de Color"); }, 3000);
+   }
 
   ngOnInit() {
   }
