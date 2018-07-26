@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+
+  obtenerRGB() {
+    var color = "rgb(" +  Math.floor(Math.random() * 255) + ","+ Math.floor(Math.random() * 255) + ","+ Math.floor(Math.random() * 255) + ")";
+    return color;
+  }
 }
