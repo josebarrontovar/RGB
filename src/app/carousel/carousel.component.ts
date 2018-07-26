@@ -9,7 +9,7 @@ export class CarouselComponent implements OnInit {
   @Input() color:string;
 
   constructor() {
-    setInterval(function(){ alert("Cambio de Color"); }, 3000);
+    setInterval(function(){  }, 3000);
    }
 
   ngOnInit() {
